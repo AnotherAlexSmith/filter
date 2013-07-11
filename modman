@@ -1,0 +1,6 @@
+app/code/local/SnowCommerce/ProductFilter/ app/code/local/SnowCommerce/ProductFilter
+app/design/frontend/default/default/layout/productfilter.xml app/design/frontend/default/default/layout/productfilter.xml
+app/design/frontend/default/default/template/productfilter/ app/design/frontend/default/default/template/productfilter/
+app/design/adminhtml/default/default/layout/productfilter.xml app/design/adminhtml/default/default/layout/productfilter.xml
+app/etc/modules/SnowCommerce_ProductFilter.xml app/etc/modules/SnowCommerce_ProductFilter.xml
+app/etc/modules/SnowCommerce_ProductFilter.xml app/etc/modules/SnowCommerce_ProductFilter.xml

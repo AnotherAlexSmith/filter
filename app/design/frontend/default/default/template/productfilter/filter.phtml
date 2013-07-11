@@ -1,0 +1,13 @@
+<form action='<?php echo Mage::helper('core/url')->getCurrentUrl(); ?>' >
+    <label><h1>Products Filtering</h1></label>
+    <label><h2>Price</h2></label>
+    <label>From </label><input name="price_from" size="5"><label> to </label><input name="price_to" size="5"><br /><br />
+    <?php foreach($this->getCollection() as $attr)
+    {
+        echo $this->buildSelect($attr);
+    }
+    ?>
+    <button type="submit">Filter</button><br /><br />
+
+</form>
+
